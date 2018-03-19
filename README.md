@@ -14,14 +14,11 @@ export const firebaseConfig = {
 }
 ```
 
-To run the iOS application, use the following command:
+To run the server, use the following command:
 
 ```
-react-native run-ios
+yarn start
 ```
 
-To run the Android application, use this command:
+And load the app via the Expo app on the device.
 
-```
-react-native run-android
-```
