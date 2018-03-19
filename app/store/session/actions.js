@@ -23,7 +23,8 @@ export const loginUser = (email, password) => {
     dispatch(sessionLoading())
 
     firebaseService.auth()
-      .signInWithEmailAndPassword(email, password)
+      .signInAnonymously()
+      // .signInWithEmailAndPassword(email, password)
       .catch(error => {
         dispatch(sessionError(error.message))
       })

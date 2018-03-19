@@ -1,15 +1,24 @@
-import React from 'react'
-import { Provider } from 'react-redux'
+'use strict';
 
-import { configureStore } from './store'
+var _expo = require('expo');
 
-import ChatApp from './components/ChatApp'
+var _expo2 = _interopRequireDefault(_expo);
 
-const store = configureStore()
+var _App = require('./App');
 
-const App = () =>
-  <Provider store={store}>
-    <ChatApp />
-  </Provider>
+var _App2 = _interopRequireDefault(_App);
 
-export default App
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactNative = require('react-native');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+if (process.env.NODE_ENV === 'development') {
+  _expo2.default.KeepAwake.activate();
+}
+
+_expo2.default.registerRootComponent(_App2.default);
+//# sourceMappingURL=crna-entry.js.map
