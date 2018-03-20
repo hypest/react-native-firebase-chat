@@ -22,4 +22,4 @@ yarn start
 
 And load the app via the Expo app on the device.
 
-<iframe width="880" height="425" frameborder="0" src="//cdn.rawgit.com/dabbott/react-native-web-player/gh-v1.10.0/index.html"></iframe>
+<div class="iframe_container"><iframe width="880" height="425" frameborder="0" src="//cdn.rawgit.com/dabbott/react-native-web-player/gh-v1.10.0/index.html"></iframe></div>
